@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Conversor de Moedas -->
+        <h1 class="page-title">
+            Conversor de Moedas 🪙
+        </h1>
+        <p class="page-subtitle">
+            Descubra os valores em Dólar, Euro e BitCoin!
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor em reais</label> <br>
+        <input type="number" id="valor" size="2"> <br>
+        <button type="submit" onclick="ConverterReais()"> Converter </button> <br>
+        <h2 id="valorConvertidoDolar"></h2>
+        <h2 id="valorConvertidoEuro"></h2> 
+        <h2 id="valorConvertidoBitCoin"></h2>
+
+        <br>
+        <hr>
+        <br>
+        <!-- Conversor de Grau -->
+        <h1 class="page-title">
+            Conversor de temperaturas 🌡️
+        </h1>
+        <p class="page-subtitle">
+            Descubra o valor em Celsius
+        </p>
+        <br>
+        <label for="moeda">Insira o valor</label> <br>
+        <input type="number" id="valorTemp" size="2"> <br>
+        <button type="submit" onclick="ConverterTemperaturas()"> Converter  </button> <br>
+    
+        <h2 id="valorConvertidoCelsius"></h2>
+        <h2 id="valorConvertidoKelvin"></h2>
+        <h2 id="valorConvertidoFarenheit"></h2>
+
+        <br>
+        <hr>
+        <br>
+        <!-- Conversor de de Quilometros para ano luz -->
+
+        <h1 class="page-title">
+            Conversor de Quilômetros para Anos Luz 🌠
+        </h1>
+        <p class="page-subtitle">
+            Descubra o valor em anos luz
+        </p>
+        <br>
+        <label for="moeda">Insira o valor</label> <br>
+        <input type="number" id="valorKM" size="2"> <br>
+        <button type="submit" onclick="ConverterKM()"> Converter  </button> <br>
+    
+        <h2 id="valorConvertidoAnoLuz"></h2>
+
+
+
+    </div>
+    
+    
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+ <footer>
+            <p><a href="https://github.com/GuilCMattos" target="_blank">Desenvolvido por <strong>Guilherme Mattos</strong></a></p>
+ </footer>
+
+    <script src="script.js"></script>
+
+   
+</body>
+</html>
